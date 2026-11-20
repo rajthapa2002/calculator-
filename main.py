@@ -1,22 +1,7 @@
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
-from kivy.uix.button import Button
-from kivy.uix.textinput import TextInput
-from kivy.core.window import Window
-
-
-class Calculator(App):
-
-    def build(self):
-        Window.clearcolor = (0.08, 0.08, 0.08, 1)
-
-        main = BoxLayout(
-            orientation='vertical',
-            padding=10,
-            spacing=10
-        )
-
+from 
         self.display = TextInput(
             text='',
             font_size=35,
